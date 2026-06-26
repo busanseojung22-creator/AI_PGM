@@ -1,0 +1,16 @@
+# 5개의 정수 입력받기
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+d = int(input("Enter fourth number: "))
+e = int(input("Enter fifth number: "))
+
+# 리스트에 저장
+numbers = [a, b, c, d, e]
+
+# 결과 출력
+print("리스트:", numbers)
+print("합:", sum(numbers))
+print("평균:", sum(numbers) / len(numbers))
+print("최소값:", min(numbers))
+print("최대값:", max(numbers))
