@@ -1,0 +1,7 @@
+assignment(대입, 할당 : 우측 수식의 연산결과를 왼쪽의 변수에 대입)
+variable = expression
+			literal or constant 			a=1
+			variable 				a= b
+			opreator				a = b + 1
+			function				a = sum(1, 2) * a + 1
+				variavle, literal, operator, function	 
